@@ -1,0 +1,2 @@
+execute as @a at @s positioned ~ ~-1 ~ unless block ~ ~-1 ~ minecraft:purple_wool run title @a title {"text":"You are on purple wool","color":"dark_purple"}
+scoreboard players set @a purple_wool_triggered 1

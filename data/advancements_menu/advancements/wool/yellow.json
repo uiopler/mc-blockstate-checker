@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:yellow_wool"
+		},
+		"title": "Yellow Wool Checker",
+		"description": "triggers ()",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "advancements_menu:wool/red",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

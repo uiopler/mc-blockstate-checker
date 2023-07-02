@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:white_wool"
+		},
+		"title": "Wool",
+		"description": "Manages level 1 events",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "advancements_menu:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

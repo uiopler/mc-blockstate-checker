@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pink_wool"
+		},
+		"title": "Pink Wool Checker",
+		"description": "triggers ()",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "advancements_menu:wool/purple",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
